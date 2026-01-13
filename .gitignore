@@ -1,0 +1,50 @@
+# --- Minecraft / Paper ---
+logs/
+cache/
+libraries/
+versions/
+crash-reports/
+banned-players.json
+banned-ips.json
+ops.json
+usercache.json
+whitelist.json
+.console_history
+permissions.yml
+
+# Worlds（世界檔一定不要丟）
+world/
+world_nether/
+world_the_end/
+*.mca
+
+# Plugins runtime data
+plugins/**/data/
+plugins/**/logs/
+plugins/**/cache/
+plugins/**/storage/
+plugins/**/db/
+plugins/**/playerdata/
+
+# Ignore other plugins that might come with Paper or other plugins
+plugins/bStats/
+plugins/spark/
+
+# Paper / Server runtime
+map-color-cache.dat
+version_history.json
+
+# Paper remapping cache
+plugins/.paper-remapped/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# frame
+plugins/BoatMapAnimator/frames/*
