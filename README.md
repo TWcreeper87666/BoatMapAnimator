@@ -50,6 +50,8 @@ https://youtu.be/eN11PAvOeqk?si=rScZteIMveGWCnU8
 
 雙擊 `start.bat` 即可，輸入 `stop` 關閉伺服器，可選擇重啟或者離開（q）
 
+開啟 Java 版麥塊（1.21.10），加入伺服器（localhost）即可進入伺服器
+
 ### 生成動畫
 
 把圖片序列放到 `plugins/BoatMapAnimator/frames/` 裡面
@@ -58,6 +60,8 @@ https://youtu.be/eN11PAvOeqk?si=rScZteIMveGWCnU8
 ```
 /boatmap generate <string: framesDir> [location: generateAt] [number: repeat]
 ```
+
+\* 不要搞太多格不然很易爆
 
 # 你想做插件？！
 
