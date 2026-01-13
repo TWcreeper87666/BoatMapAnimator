@@ -44,8 +44,6 @@ build.gradle dependencies 記得加上 Paper API
 就跟之前的像素圖片一樣
 https://youtu.be/eN11PAvOeqk?si=rScZteIMveGWCnU8
 
----
-
 # 教學？！
 
 ### 運行伺服器
@@ -60,8 +58,6 @@ https://youtu.be/eN11PAvOeqk?si=rScZteIMveGWCnU8
 ```
 /boatmap generate <string: framesDir> [location: generateAt] [number: repeat]
 ```
-
----
 
 # 你想做插件？！
 
