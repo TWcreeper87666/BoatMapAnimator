@@ -46,28 +46,7 @@ https://youtu.be/eN11PAvOeqk?si=rScZteIMveGWCnU8
 
 ---
 
-# 細節？！
-
-### 做插件
-
-我放在 `make_plugin`
-
-新增下面代碼讓編譯後的 jar 自動放到伺服器插件資料夾
-```gradle
-// make_plugin/BoatMapAnimator/app/build.gradle
-tasks.named('jar') {
-    archiveBaseName.set("BoatMapAnimator")
-    archiveVersion.set("")        // 不要產生 -1.0.jar
-    destinationDirectory.set(file("../../../plugins")) // this one
-}
-```
-
-### 編譯插件
-
-到 `make_plugin/BoatMapAnimator` 開啟終端機，輸入
-```
-./gradlew build
-```
+# 教學？！
 
 ### 運行伺服器
 
@@ -80,4 +59,29 @@ tasks.named('jar') {
 執行指令（軌道將往東方延伸）
 ```
 /boatmap generate <string: framesDir> [location: generateAt] [number: repeat]
+```
+
+---
+
+# 你想做插件？！
+
+### 做插件
+
+我放在 `make_plugin`
+
+新增下面代碼可以讓編譯後的 jar 自動放到伺服器插件資料夾
+```gradle
+// make_plugin/BoatMapAnimator/app/build.gradle
+tasks.named('jar') {
+    archiveBaseName.set("BoatMapAnimator")
+    archiveVersion.set("")
+    destinationDirectory.set(file("../../../plugins")) // this one
+}
+```
+
+### 編譯插件
+
+到 `make_plugin/BoatMapAnimator` 開啟終端機，輸入
+```
+./gradlew build
 ```
