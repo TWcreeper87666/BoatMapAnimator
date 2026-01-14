@@ -4,6 +4,8 @@
 
 不私藏，全部告訴你！
 
+[![介紹影片](https://i1.ytimg.com/vi/BTStURFU-2A/maxresdefault.jpg)](https://youtu.be/BTStURFU-2A)
+
 ### 重要參數：
 
 1. 冰上船速 = 40 m/s
