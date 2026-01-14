@@ -28,13 +28,10 @@ ffmpeg -i rickroll.mp4 -vf "fps=40,crop='min(iw,ih)':'min(iw,ih)',scale=128:128"
 ffmpeg -i short.mp4 -vf "fps=40,pad=ih:ih:(ih-iw)/2:0:black,scale=128:128" frames/frame_%04d.png
 ```
 
-### 插件伺服器：Paper
+### 其他內容
 
-https://papermc.io/downloads/paper
-
-### Java 專案（做插件）：
-
-VSC, Gradle, Groovy
+- 插件伺服器：Paper
+- Java 專案（做插件）：VSC, Gradle, Groovy
 
 ### 附加價值不適用短片：
 
